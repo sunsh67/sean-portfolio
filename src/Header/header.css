@@ -1,0 +1,20 @@
+.header {
+    border: 1px red solid;
+    height: 10%;
+    width: 100%;
+}
+
+.logo{
+    border: 1px rgb(0, 255, 221) solid;
+    float: right;
+    padding-right: 2%;
+    width: 20%;
+    height: 100%;
+}
+
+.menu {
+    border: 1px rgb(0, 255, 221) solid;
+    float: left;
+    width: 30%;
+    height: 100%;
+}

@@ -1,0 +1,19 @@
+.intro{
+    border: 1px blue solid;
+    height: 50%;
+    width: 100%;
+}
+
+.portrait{
+    height: 40%;
+    width: 40%;
+    border: 1px green solid;
+
+}
+
+.portrait img{
+    margin: 10%;
+    height: 60%;
+    width: 40%;
+    border: 1px red solid;
+}
