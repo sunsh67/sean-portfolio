@@ -1,19 +1,29 @@
 .intro{
     border: 1px blue solid;
-    height: 50%;
+    height: 30%;
     width: 100%;
+    display: flex;
 }
 
 .portrait{
-    height: 40%;
+    height: 100%;
     width: 40%;
     border: 1px green solid;
-
 }
 
 .portrait img{
     margin: 10%;
-    height: 60%;
-    width: 40%;
-    border: 1px red solid;
+    height: 55%;
+    width: 70%;
+    overflow: auto;
+}
+
+.brief {
+    border: 1px greenyellow solid;
+    height: 100%;
+    width: 60%;
+}
+
+.brief p{
+    margin: 10%;
 }
