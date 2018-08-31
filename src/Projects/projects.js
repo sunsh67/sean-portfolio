@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ProjectItem from './projectItem';
+import './projects.css';
 
 class Project extends Component{
 
@@ -17,9 +18,9 @@ class Project extends Component{
 
     render(){
         return(
-          <div>
-              {this.state.projects.map(project => <ProjectItem project={project}/>)}
-        </div>
+          <div className="projects">
+         {this.state.projects.map( project => <ProjectItem project={project} key={project.id}/>)}
+          </div>
            
         )
     }

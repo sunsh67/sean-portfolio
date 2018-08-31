@@ -1,0 +1,11 @@
+.projects{
+    display: flex;
+    border: 1px blueviolet solid;
+    widows: 100%;
+    height: 45%;
+}
+
+.project{
+    border: 1px pink solid;
+    margin: auto;
+}
