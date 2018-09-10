@@ -1,20 +1,21 @@
 .header {
     border: 1px red solid;
-    height: 10%;
+    height: 3%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
-.logo{
-    border: 1px rgb(0, 255, 221) solid;
-    float: right;
-    padding-right: 2%;
-    width: 20%;
-    height: 100%;
+.select {
+   border: 1px black solid;
+   width: 40%;
+   height: 80%;
+}
+.header span{
+    font-size: 60%; 
+    opacity: 0.5; 
 }
 
-.menu {
-    border: 1px rgb(0, 255, 221) solid;
-    float: left;
-    width: 30%;
-    height: 100%;
+.header :hover span{
+    opacity: 1;
 }

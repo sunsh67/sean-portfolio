@@ -3,7 +3,7 @@ import React from 'react';
 const Portrait = () => {
     return(
         <div className="portrait">
-           <img src={require("./portraits/p1.jpeg")} alt='p2'></img>
+           <img src={require("./portraits/p4.JPG")} alt='p4'></img>
          </div>
 
     )

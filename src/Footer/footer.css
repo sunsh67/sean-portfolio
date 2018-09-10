@@ -1,4 +1,18 @@
 .footer{
     display: flex;
     border: 1px olivedrab solid;
+    height: 4%;
+    
+}
+
+.footer span{
+    /* border: 1px black solid; */
+    text-align: center;
+    margin: auto;
+    color: #575757;
+    overflow-x: hidden; 
+    overflow-y: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 70%; 
 }

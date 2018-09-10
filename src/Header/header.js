@@ -1,26 +1,16 @@
 import React from 'react';
 import './header.css';
-import Menu from './menu';
+import About from './about';
+import ShowProjects from './showProjects';
 
-const Header = () =>
+const Header = (props) =>
 {
   return (
       <div className="header">
-          <Logo/>
-          <Menu/>
+          <About/>
+          <ShowProjects/>
          </div>
   )
    
 }
-
-const Logo = () => {
-    return(
-        <div className="logo">
-        <h1>SS.</h1> 
-        </div>
-    )
-
-}
-
-
 export default Header;
