@@ -4,12 +4,9 @@ import './header.css';
 const ShowProjects = (props) => {
     return(
         <div className="select">
-        <span onClick={()=> getProjects()}>Projects</span>
+        <span onClick={props.remainMode}>Projects</span>
         </div>
     )
 }
 
-const getProjects = () => {
-    alert('');
-}
 export default ShowProjects;

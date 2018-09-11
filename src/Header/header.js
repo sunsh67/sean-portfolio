@@ -1,14 +1,14 @@
 import React from 'react';
 import './header.css';
-import About from './about';
+import ShowAbout from './showAbout';
 import ShowProjects from './showProjects';
 
 const Header = (props) =>
 {
   return (
       <div className="header">
-          <About/>
-          <ShowProjects/>
+          <ShowAbout changeMode = {props.changeMode}/>
+          <ShowProjects remainMode = {props.remainMode}/>
          </div>
   )
    

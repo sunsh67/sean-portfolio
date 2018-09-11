@@ -9,7 +9,7 @@ const index = [
     {pic:'./projectsImg/smoking.png', git:'https://github.com/sunsh67/smoking-provention-website'}
 ]
 
-class Project extends Component{
+class Projects extends Component{
 
     constructor(props){
         super(props);
@@ -19,13 +19,22 @@ class Project extends Component{
                 {id: 2, name: 'Pet Service', pic:index[1].pic, git:index[1].git},
                 {id: 3, name: 'Smoking Prevention', pic:index[2].pic, git:index[2].git}
             ],
+        isAbout: {on: 'none', off: 'block'}
+    
         }
     }
 
-
+    
     render(){
+        let showProjectes = { display:''};
+        if(this.props.mode === 'projects'){
+            showProjectes.display = this.state.isAbout.off;
+        }else{
+            showProjectes.display = this.state.isAbout.on;
+        }
         return(
-          <div className="projects">
+          <div className="projects" style={showProjectes}>
+          <div className="topic">Projects</div>
          {this.state.projects.map( project => <ProjectItem project={project} key={project.id}/>)}
           </div>
            
@@ -33,4 +42,4 @@ class Project extends Component{
     }
 }
 
-export default Project;
+export default Projects;
