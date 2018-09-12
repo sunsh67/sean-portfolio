@@ -22,7 +22,7 @@ class Brief extends React.Component{
         this.increaseCount = this.increaseCount.bind(this);
     }
     componentDidMount(){
-        this.timerID = setInterval(this.increaseCount, 3000);
+        this.timerID = setInterval(this.increaseCount, 2000);
     }
     componentWillMount(){
         clearInterval(this.timerID);
@@ -45,10 +45,10 @@ class Brief extends React.Component{
     render(){
         return(
             <div className="brief">
-                <p>Hi ! I'm Sean Sun</p>
-                <p>who</p>
-                <span>{this.state.spanText}</span>
-                <p>is looking for new opportunities.</p>
+                <div className='brief-item'><p>Hi ! I'm Sean Sun</p></div>
+                <div className='brief-item'><p>who</p></div>
+                <div className='span-item'><p>{this.state.spanText}</p></div>
+                <div className='brief-item'><p>is looking for new opportunities.</p></div>
                 </div>
         )
 

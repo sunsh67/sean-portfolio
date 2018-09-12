@@ -10,7 +10,9 @@
    margin: 1%;
    width: 15%;
    height: 80%;
-   border-bottom: 1px gray solid;
+   /* opacity: 0.5; */
+   border-bottom: 1px solid;
+   border-bottom-color: lightgray;
 }
 .header span{
     font-size: 1.5vh; 
@@ -20,4 +22,8 @@
 
 .header :hover span{
     opacity: 1;
+}
+
+.header :hover .select{
+   border-bottom-color: black;
 }
