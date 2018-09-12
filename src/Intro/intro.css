@@ -1,6 +1,6 @@
 .intro{
-    border: 1px blue solid;
-    height: 27%;
+    /* border: 1px blue solid; */
+    height: 23%;
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -8,16 +8,16 @@
 }
 
 .portrait{
-    height: 75%;
-    width: 47%;
-    border: 1px green solid;
+    height: 65%;
+    width: 50%;
+    /* border: 1px green solid; */
 }
 
 .portrait img{
-    margin: 10%;
-    height: 70%;
-    width: 70%;
-    overflow: auto;
+    margin: auto;
+    height: 99%;
+    width: 65%;
+    /* overflow: auto; */
     border-radius: 50%;
 }
 
@@ -27,9 +27,10 @@
 }
 
 .brief {
-    border: 1px greenyellow solid;
+    /* border: 1px greenyellow solid; */
     height: 100%;
     width: 50%;
+    font-size: 2vh;
 }
 
 .brief p{
@@ -39,19 +40,21 @@
 .social-media{ 
     height: 23%;
     width: 47%;
-    border: 1px red solid;
+    /* border: 1px red solid; */
     display: flex;
 }
 
 .icon{
-    border: 0.5px black solid;
+    /* border: 0.5px black solid; */
     margin: auto;
     /* margin: 5%; */
 }
 
 .icon img {
-    width:60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
 }
-
-
+ .brief span{
+     /* text-emphasis:filled rgb(69, 161, 69); */
+     text-decoration:underline;
+ }

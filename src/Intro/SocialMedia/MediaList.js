@@ -4,7 +4,7 @@ import Icon from './Icon';
 const icons = [
     {name:'linkedin', path:"./icons/linkedin-logo.svg", des:"https://www.linkedin.com/in/sheng-s/"},
     {name:'facebook', path:"./icons/facebook-logo.svg", des:"https://www.facebook.com/sun.sh67"},
-    {name:'github', path:"./icons/github-logo.svg", des:"https://github.com/sunsh67"}
+    {name:'instagram', path:"./icons/instagram-logo.svg", des:"https://www.instagram.com/suunsean/"}
 ]
 
 const MediaList = () => {

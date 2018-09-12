@@ -10,7 +10,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      mode:'about'
+      mode:'projects'
     }
     this.changeMode = this.changeMode.bind(this);
     this.remainMode = this.remainMode.bind(this);
