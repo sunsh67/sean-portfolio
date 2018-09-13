@@ -15,7 +15,7 @@
     text-decoration: none;
     color: black;
 }
-.about-box :hover a, :visited a, :active{
+.about-box :hover a, :visited a, :active a{
     color: rgb(83, 141, 83);
 }
 .info{

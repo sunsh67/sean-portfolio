@@ -66,6 +66,7 @@ build urban communities. In my spare time, I love hiking, reading, traveling and
             • Created and executed stored procedures to populate tables with actual data<br/>
             <div className='space'></div>
             • Built triggers to make retail storage data synchronized<br/>
+            <div className='space'></div>
             </div>
             </div>
 
@@ -75,6 +76,7 @@ build urban communities. In my spare time, I love hiking, reading, traveling and
             Skills
             </div>
             <div className='info'>
+            <div className='space'></div>
             <div className='name'>Software Engineering:</div>
              Front-end Devlopment(React, Java), Database Management, User Interface Prototyping
             <div className='space'></div>
