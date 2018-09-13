@@ -21,17 +21,10 @@
 .img-box{
     /* border: 1px green solid; */
     margin: auto;
-    height: 70%;
+    height: 77%;
     width: 50%;
     object-fit: cover;
-    /* object-position: center right; */
-    /* margin-top: 2%; */
-    /* overflow: hidden; */
 }
-/* orders decides scopes */
-/* .portrait:hover img{
-    opacity: 0.5;
-} */
 
 .brief {
     /* border: 1px greenyellow solid; */
@@ -76,4 +69,21 @@
     height: 50%;
 }
 
-
+@media only screen and (min-width: 961px){
+   .img-box{
+       height: 90%;
+       width:22%;
+       float: left;
+       margin-left: 10%;
+   }
+   .portrait{
+       height: 68%;
+   }
+   .social-media{
+       width: 20%;
+       margin-left: 2%;
+   }
+   .icon{
+       width: 20%;
+   }
+}

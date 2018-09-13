@@ -1,6 +1,7 @@
 .projects{
-    display: flex;
     /* border: 1px blueviolet solid; */
+
+    display: flex;
     width: 100%;
     height: 65%;
     flex-direction: column;
@@ -8,11 +9,9 @@
 
 .project{
     /* border: 1px pink solid; */
-    /* border-top: 1px pink solid; */
+
     margin: auto;
     padding: 4%;
-    /* display: flex; */
-    /* flex-direction: column; */
     width: 80%;
     height: 25%;
 }
@@ -21,11 +20,8 @@
     width: 65%;
     height: 80%;
     margin: auto;
-    /* border-bottom: 0.5px solid; */
     margin-bottom: 1%;
-    /* border: 1px blueviolet solid; */
     position: relative;
-    /* backface-visibility: hidden; */
 }
 
 img{
@@ -34,46 +30,91 @@ img{
 }
 
 .projectImg :hover{
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 .topic{
     /* border: 1px black solid; */
+
     font-weight: 300;
     font-size: 3vh;
-    margin: 2%;
+    margin: auto;
+    width: 90%;
+    height: 5%;
 }
 
 .projectButton{
     /* border: 1px pink solid; */
-    position: absolute;
-    top: 40%;
-    left: 30%;
-    opacity: 0;
-    /* transform: translate(-50%, -50%); */
-}
-.projectButton button{
-    border: 1px black solid;
-    border-radius: 15px;
-    font-size: 2vh;
-    background-color: black;
-    color: aliceblue;
-    opacity: 1;
-}
-/* .projectButton :hover{
-    display: inline-block;
-} */
 
-.project :hover .projectButton{
+    position: absolute;
+    top: 38%;
+    left: 30%;
+    /* opacity: 0; */
+    width: 45%;
+    height: 25%;
+    text-align: center;   
+}
+
+ .project button{
+    border: 1px black solid;
+    height: 90%;
+    border-radius: 15px;
+    background-color:transparent;
+    opacity: 0;
+ }
+
+.project :hover button{
     opacity: 1;
 }
 
 .project-name{
+    /* border: 1px black solid; */
+
     margin: auto;
     color: rgb(57, 150, 57);
     font-size: 1.2vh;
-    /* border: 1px black solid; */
     width: 65%;
     text-align: left;
     font-weight: 400;
+}
+
+/* :hover button{
+    background-color: black;
+} */
+/* for desktop */
+@media only screen and (min-width: 961px){
+    .projects{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .project{
+        width: 24%;
+        height: 30%;
+        margin-bottom: 20%;
+    }
+    .projectImg{
+        width: 100%;
+        height: 100%;
+    }
+
+    .project-name{
+        width: 100%;
+        font-size: 1.2vw;
+    }
+
+    .projectButton{
+        left: 25%;
+        height: 22%;
+    }
+
+    button{
+        font-size: 1vw;
+        border: 2px black solid;
+        width: 55%;
+    }
+    .project-name{
+        font-weight: 300;
+        font-style: italic;
+    }
 }

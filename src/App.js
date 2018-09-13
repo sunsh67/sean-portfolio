@@ -27,7 +27,7 @@ class App extends Component {
   render() {
     return(
      <div className="App">
-     <Header changeMode={this.changeMode} remainMode={this.remainMode}/>
+     <Header changeMode={this.changeMode} remainMode={this.remainMode} mode={this.state.mode}/>
      <Intro/>
      <About mode={this.state.mode}/>
      <Projects mode={this.state.mode}/>

@@ -7,8 +7,8 @@ const Header = (props) =>
 {
   return (
       <div className="header">
-          <ShowAbout changeMode = {props.changeMode}/>
-          <ShowProjects remainMode = {props.remainMode}/>
+          <ShowAbout changeMode = {props.changeMode} mode={props.mode}/>
+          <ShowProjects remainMode = {props.remainMode} mode={props.mode}/>
          </div>
   )
    

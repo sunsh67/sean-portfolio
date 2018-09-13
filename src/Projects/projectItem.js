@@ -6,7 +6,7 @@ const ProjectItem = ({project}) => {
         <div className="project">
         <div className="projectImg">
         <img src={require(`${project.pic}`)} alt={project.name}></img>
-        <div className="projectButton"><a href={project.git}><button>{buttonContent}</button></a></div>   
+        <div className="projectButton"><a href={project.git} target="_blank" rel="noopener noreferrer"><button>{buttonContent}</button></a></div>   
         </div>
         <div className='project-name'>{project.name}</div>
         </div>

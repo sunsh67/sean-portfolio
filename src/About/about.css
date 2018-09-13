@@ -7,7 +7,7 @@
 .about-box{
     /* border: 1px pink solid; */
     margin: auto;
-    padding: 2%;
+    /* padding: 2%; */
     display: flex;
     width: 80%;
 }
@@ -15,8 +15,8 @@
     text-decoration: none;
     color: black;
 }
-.about-box :hover a{
-    opacity: 0.5;
+.about-box :hover a, :visited a, :active{
+    color: rgb(83, 141, 83);
 }
 .info{
     /* border: 1px green solid; */
@@ -48,3 +48,31 @@
     margin: 1%;
 }
 
+@media only screen and (min-width: 961px){
+    
+    .about{
+        height: 65%;
+    }
+    .info{
+        font-size:1.5vh;
+    }
+    .side-box{
+        font-size: 1vw;
+    }
+
+    .name{
+        font-size: 1.6vh;
+    }
+    
+    .date{
+        font-size:0.7vw;
+    }
+    .des{
+        font-size: 1.5vh;
+        line-height: 2vh;
+    }
+    .space{
+        margin: 0.5%;
+    }
+
+}

@@ -19,7 +19,7 @@ class Projects extends Component{
                 {id: 2, name: 'Pet Service', pic:index[1].pic, git:index[1].git},
                 {id: 3, name: 'Smoking Prevention', pic:index[2].pic, git:index[2].git}
             ],
-        isAbout: {on: 'none', off: 'block'}
+        isAbout: {on: 'none', off: 'flex'}
     
         }
     }
