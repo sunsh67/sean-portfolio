@@ -1,7 +1,7 @@
 .intro{
     /* border: 1px blue solid; */
     height: 23%;
-    max-width: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
