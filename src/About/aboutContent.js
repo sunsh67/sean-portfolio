@@ -54,7 +54,7 @@ build urban communities. In my spare time, I love hiking, reading, traveling and
             <LineSpace/>
             • Passed js/jsx files in eslint rules to find syntax and formatting errors in JavaScript code<br/>
             <LineSpace/>
-            <div className='name'><a href='https://github.com/sunsh67/tv-tracker-application' target="_blank" rel="noopener noreferrer">Pet Care Service Website</a></div>
+            <div className='name'><a href='https://github.com/sunsh67/pet-service-website' target="_blank" rel="noopener noreferrer">Pet Care Service Website</a></div>
             • Designed and developed a responsive website using HTML, CSS and jQuery with a strong emphasis on user-centered design, usability standards and human factors testing<br/>
             <LineSpace/>
             • Used local storage, Cookies and JSON for users to log-in/out and register their accounts<br/>
